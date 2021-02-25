@@ -1,0 +1,42 @@
+.App-header1 {
+    background-color: #f3e4e1;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: unset;
+    font-size: calc(10px + 2vmin);
+    color: #d96d87;
+  }
+  .App-div1 {
+    background-color: #a5412d;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    float: right;
+    font-size: calc(10px + 2vmin);
+    color: #d96d87;
+  }
+  
+
+
+  a {
+    color: #d96d87;
+    text-decoration: none;
+   
+  }
+ 
+
+  a:link {
+    color: white;
+  }
+  .logo{
+    width: 250px;
+    max-width: 100%;
+    justify-self: left;
+   
+   }
