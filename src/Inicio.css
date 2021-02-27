@@ -1,0 +1,30 @@
+
+.App-Inicio {
+    background-color: #E09C92;
+    min-height: 25vh;
+    align-items: center;
+  }
+
+  .producto_nuevo_img{
+    width: 200px;
+    max-width: 100%;
+   }
+
+   .producto_img{
+    width: 200px;
+    max-width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+
+   }
+   
+
+
+   .Menu-img {
+    list-style-type: none;
+    margin:0;
+    align-self: center;
+
+  }
+
+   
