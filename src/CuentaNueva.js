@@ -55,7 +55,7 @@ handleSubmit = event => {
   };
 
   us: qs.stringify(us)
- axios.post("http://localhost:5000/usuarios", us)
+ axios.post("http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/usuarios", us)
     .then(res => {
       console.log(res);
       console.log(res.data);

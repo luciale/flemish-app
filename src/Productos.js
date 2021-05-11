@@ -51,7 +51,7 @@ class Productos extends React.Component {
     this.setState({ codigo: event.target.value });
   }
   componentDidMount() {
-    axios.get(`http://localhost:5000/productos`)
+    axios.get(`http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/productos`)
       .then(res => {
         const productos = res.data;
         this.setState({ productos});
@@ -59,7 +59,7 @@ class Productos extends React.Component {
       
   }
   handleSubmitDelete (producto) {
-    axios.delete(`http://localhost:5000/productos/${producto.Codigo}`)
+    axios.delete(`http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/productos/${producto.Codigo}`)
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -75,7 +75,7 @@ class Productos extends React.Component {
       Descripcion: this.state.descripcion
     };
     pro: qs.stringify(pro)
-    axios.put(`http://localhost:5000/productos/${codigo}`, pro)
+    axios.put(`http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/productos/${codigo}`, pro)
       .then(res => {
         console.log(res);
         console.log(res.data);

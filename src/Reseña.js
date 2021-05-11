@@ -33,7 +33,7 @@ class Reseña extends Component {
     };
 
     rese: qs.stringify(rese)
- axios.post("http://localhost:5000/blog", rese)
+ axios.post("http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/blog", rese)
     .then(res => {
       console.log(res);
       console.log(res.data);

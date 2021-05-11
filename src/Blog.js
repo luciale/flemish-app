@@ -15,7 +15,7 @@ class Blog extends React.Component {
     reseñas:[]
   }
   componentDidMount() {
-    axios.get(`http://localhost:5000/blog`)
+    axios.get(`http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/blog`)
       .then(res => {
         const reseñas = res.data;
         this.setState({ reseñas});

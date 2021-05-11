@@ -70,7 +70,7 @@ handleSubmit = event => {
   };
 
   pro: qs.stringify(pro)
- axios.post("http://localhost:5000/productos", pro)
+ axios.post("http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/productos", pro)
     .then(res => {
       console.log(res);
       console.log(res.data);

@@ -31,7 +31,7 @@ class Cuenta extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    axios.get(`http://localhost:5000/usuarios`)
+    axios.get(`http://ec2co-ecsel-ywfyzu48p1rx-1028345273.us-east-2.elb.amazonaws.com:8080/usuarios`)
     .then(res => {
       const usuarios = res.data;
       this.setState({ usuarios});
