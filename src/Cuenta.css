@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+
+.container {
+    padding: 50px;
+    position: center;
+    align-self: center;
+}
+.div-login {
+    background-color: #EDEDED;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    align-self: center;
+}
+.form-login {
+    background-color: #E09C92;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    align-self: center;
+}
+.form-control {
+    background-color: #F3E4E1;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    align-self: center;
+}
+
+h4 { 
+ border:0 solid #F3E4E1;
+ font-weight: bold;
+ color: #F3E4E1 ;
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+    position: center;
+}
+
+.wrapper {
+    text-align: center;
+}

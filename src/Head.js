@@ -1,7 +1,5 @@
 import './Head.css';
 import React from 'react';
-
-
 import Flemish from './assets/img/Flemish.png';
 import Carretilla from './assets/img/carreta.png';
 
@@ -13,7 +11,7 @@ import {
   Link
 } from 'react-router-dom';
 
-const Header= () => {
+const Head= () => {
     return (
       <>
      <div class="header">
@@ -32,5 +30,5 @@ const Header= () => {
     );
   }
   
-  export default Header;
+  export default Head;
   
